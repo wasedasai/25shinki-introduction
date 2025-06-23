@@ -1,0 +1,75 @@
+
+    *{margin:0;padding:0;box-sizing:border-box;}
+
+.layout{
+  display:flex;                 /* 左右並び */               /* ビューポート高にフィット */
+}
+
+/* —— 左カラム（固定ナビ） —— */
+.sidebar{
+  width:auto;                  /* お好み幅 */
+  padding-top:30px;   
+  padding-left: 50px;          /* ← 上を少し開けたい場合はココ */
+  position:sticky;              /* ★スクロールしても固定 */
+  top:0;                        /* ビューポート上端に張り付く */
+  align-self:flex-start;        /* Safari 対策：sticky を効かせる */
+}
+.sidebar ul{
+  list-style:none;
+  font-family:"DM Serif Text",serif;
+  line-height:2;
+}
+.sidebar li{
+    margin-bottom:15px;         /* リスト間隔 */
+    font-size:24px;             /* フォントサイズ */
+    font-weight:700;            /* 太字 */      /* 文字間隔 */             /* 文字色 */
+}
+.sidebar a{
+    text-decoration:none;
+    font-size:20px;
+    color: #000;
+
+}
+
+/* —— 右カラム（スクロール領域） —— */
+.content{
+  flex:1;                     /* 残り幅いっぱい */               /* 全高を確保して…           */             /* ★ここだけ縦スクロール可能 */
+  padding:70px 60px;            /* 上下左右の余白は自由に */
+}
+
+/* デモ用カード */
+.card{
+  margin-bottom:80px;           /* カード間隔 */
+}
+.card img{
+  width:100%;object-fit:cover;filter:grayscale(100%);
+}
+.card img:hover{
+  filter:grayscale(0%);
+}
+.card h2{
+  margin-top:12px;
+  font:700 40px "DM Serif Text",serif;
+  letter-spacing:7px;
+}
+
+/* 既存の .sidebar a {...} の下あたりに追加 */
+.sidebar a.active{
+  color:#d54640;      /* 好きなハイライト色 */
+  position:relative;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:1024px){
+  body{
+    display: none;
+  }
+}
