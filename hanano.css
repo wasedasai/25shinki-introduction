@@ -1,0 +1,217 @@
+.sea-img{
+    width:100vw;
+    position: relative;
+    margin-bottom: 0px;
+}
+.hanano-header{
+    font-size: 128px;
+    width: 871px;
+    letter-spacing: 100px;
+    
+}
+.headertext{
+    position: absolute;
+    top: 53px;
+    left: 116px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 80%;
+    font-weight: 100;
+
+}
+.profilesite{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.line{
+    background-color: white;
+    width: 1px;
+    height: 130px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.SCROLL{
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 25px;
+    font-size: 24px;
+    font-family: "Times New Roman";
+    letter-spacing: 3px;
+    align-items: flex-end;
+    color: white;
+    opacity: 80%;
+}
+
+.SCROLL {
+    margin: 0px;
+}
+
+.section1{
+    background-color: #F5FAFE;
+    height: 1100px;
+    width: 100vw;
+    margin: 0px;
+    position: relative;
+    display: flex;
+}
+
+.profile{
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color: #1F2F54;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 320px;
+    font-weight: 210px;
+    letter-spacing: 10px;
+    border-bottom: dotted 8px;
+}
+
+.rightbox{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: #1F2F54;
+    gap: 120px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+.gakubutext{
+    margin-bottom: 50px;
+}
+
+.pool-img{
+    position: absolute;
+    top: 350px;
+    left: 190px;
+}
+
+.swimmingtext{
+    transform: rotate(-90deg);
+    color: #1F2F54;
+    font-family: 'Times New Roman', Times, serif;
+    width: 137px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 270px;
+    left: 100px;
+}
+
+.threepage{
+    width: 100vw;
+    height: 1300px;
+    background-color: #CBDBEB;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.rightbox2{
+    text-align: center;
+}
+
+.leftbox2{
+    position: absolute;
+    display: flex;
+    gap: 190px;
+    padding-left: 190px;
+    padding-top: 200px;
+    margin: 0px;
+}
+
+.ongakutext{
+    margin-bottom: 200px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: #1F2F54;
+}
+
+
+
+.disneytext{
+    transform: rotate(90deg);
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F2F54;
+    font-size: 20px;
+    position: absolute;
+    top: 894px;
+    right: 160px;
+}
+
+
+
+
+.fourpage{
+    width: 100vw;
+    height: 1300px;
+    background-color: #E7F4FC;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.hogwarts-img{
+    position: absolute;
+    top: 450px;
+    left: 190px;
+    margin: 0px;
+}
+
+.hogwartstext{
+    transform: rotate(-90deg);
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F2F54;
+    font-size: 20px;
+    position: absolute;
+    top: 890px;
+    left: 117px;
+    margin: 0px;
+}
+
+
+.rightbox3{
+    position: absolute;
+    display: flex;
+    gap: 190px;
+    padding-left: 945px;
+    padding-top: 200px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: #1F2F54;
+}
+
+.animetext{
+    margin-bottom: 200px;
+}
+
+.footer{
+    background-color: #C6E3F5;
+    width: 100vw;
+    height: 150px;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.footertext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+    display: flex;
+    position: absolute;
+    gap: 100px;
+    padding-left: 100px;
+    padding-bottom: auto;
+}
+
