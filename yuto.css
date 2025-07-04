@@ -1,0 +1,303 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: #ebe4fa;
+}
+.header{
+    position: relative;
+}
+.headmain{
+    width: 100vw;
+    height: 100%;
+}
+.headbox{
+    width: 3700px;
+    transform: translateX(-50%);
+    border: 10px;
+    background-color:#c7c7c7d7; 
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_all{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 15%;
+}
+.yuto{
+    font-size: 200px;
+    color: aliceblue;
+    -webkit-text-stroke: 8px #000000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.indextext{
+    display: flex;
+    align-items: center;
+}
+.no{
+    width: 950px;
+}
+.headtext{
+    font-size: 100px;
+    color: aliceblue;
+    -webkit-text-stroke: 4px #000000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.transport{
+    text-decoration: none;
+}
+.SNS_top{
+    margin-right: 30px;
+}
+.line{
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    margin: 30px;
+}
+.midashi1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+#Profile{
+    font-size: 333px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.gosenl1{
+    width: 600px;
+    height: 250px;
+}
+.gosenr1{
+    height: 250px;
+    width: 3530px;
+}
+.jikosyoukai{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.ques{
+    font-size: 200px;
+    margin-right: 750px;
+    line-height: 450px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.ans{
+    font-size: 200px;
+    line-height: 450px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.midasi2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+#favorite{
+    font-size: 333px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.gosenl2{
+    width: 600px;
+    height: 250px;
+}
+.gosenr2{
+    height: 250px;
+    width: 3300px;
+}
+.music_all{
+    width: 2000px;
+    height: 2950px;
+    border-radius: 30px;
+    background-color: #ffc8c8;
+    text-align: center;
+}
+.music_cont_all{
+    top: 0%;
+}
+.music_photo{
+    margin-top: 50px;
+    width: 35vh;
+}
+.music_head{
+    font-size: 200px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.music_ten{
+    font-size: 95px;
+}
+.music_cont{
+    margin-top: 30px;
+    font-size: 150px;
+    line-height: 270px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.manga_all{
+    width: 2000px;
+    height: 2950px;
+    border-radius: 30px;
+    background-color: #fff2b2;
+    text-align: center;
+}
+.manga_cont_all{
+    top: 0%;
+}
+.manga_photo{
+    margin-top: 50px;
+    width: 35vh;
+}
+.manga_head{
+    font-size: 200px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.manga_ten{
+    font-size: 95px;
+}
+.manga_cont{
+    margin-top: 30px;
+    font-size: 150px;
+    line-height: 270px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.favoritetop{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+.favoritetop_center{
+    width: 500px;
+}
+.sport_all{
+    width: 2000px;
+    height: 2950px;
+    border-radius: 30px;
+    background-color: #c8f5c1;
+    text-align: center;
+}
+.sport_cont_all{
+    top: 0%;
+}
+.sport_photo{
+    margin-top: 50px;
+    width: 35vh;
+}
+.sport_head{
+    font-size: 200px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.sport_ten{
+    font-size: 95px;
+}
+.sport_cont{
+    margin-top: 30px;
+    font-size: 150px;
+    line-height: 270px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.hobby_all{
+    width: 2000px;
+    height: 2950px;
+    border-radius: 30px;
+    background-color: #c7e6ff;
+    text-align: center;
+}
+.hobby_cont_all{
+    top: 0%;
+}
+.hobby_photo{
+    margin-top: 50px;
+    width: 35vh;
+}
+.hobby_head{
+    font-size: 200px;
+}
+.hobby_ten{
+    font-size: 95px;
+}
+.hobby_cont{
+    margin-top: 30px;
+    font-size: 150px;
+    line-height: 270px;
+}
+.favoritebottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+}
+.favoritebottom_center{
+    width: 500px;
+}
+.box_back{
+    width: 6000px;
+    height: 1400px;
+    background-color: #828282;
+    transform: rotate(5deg);
+    position: absolute;
+    z-index: -2;
+    overflow-y: hidden;
+}
+.SNS_box{
+    transform: translateX(-200px);
+    position: absolute;
+    z-index: -1;
+    margin-top: 500px;
+    /* position: relative; */
+    height: 1000px;
+}
+.box_foward{
+    width: 7000px;
+    height: 1400px;
+    background-color: #cdcdcd;
+    transform: rotate(-10deg);
+    position: absolute;
+    z-index: -1;
+}
+#footer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 1300px;
+}
+.SNS_box{
+    transform: translateX(-200px);
+    position: absolute;
+    z-index: -1;
+    margin-top: 500px;
+    /* position: relative; */
+    height: 1000px;
+}
+.SNS_all{
+    display: flex;
+    margin: 1080px 0px 0px 20px;
+    align-items: center;
+}
+.SNS_all img{
+    width: 4vw;
+    margin-left: 100px;
+}
+.SNS{
+    font-size: 130px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
