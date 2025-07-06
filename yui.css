@@ -31,6 +31,7 @@ body{
 }
 .profile{
     background-color: #F2CDC4;
+    width: 100%;
 }
 .profile-photo-container{
     display: flex;
@@ -48,7 +49,7 @@ body{
     width: 7px;
     height: 488px;
     background-color: #775855;
-    margin: 0px 75px 0px 75px;
+    margin: 0px 50px 0px 50px;
 }
 .guitar{
     width: 270px;
