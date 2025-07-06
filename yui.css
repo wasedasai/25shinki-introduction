@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2CDC4;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.first-photo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.profile-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 70px;
+}
+.profile-title-line{
+    width: 440px;
+    height: 10px;
+    background-color: #775855;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.profile-title-word{
+    font-size: 88px;
+    color: #775855;
+}
+.profile{
+    background-color: #F2CDC4;
+}
+.profile-photo-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.guitar-photo{
+    width:270px ;
+    height:270px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.photo-line{
+    width: 7px;
+    height: 488px;
+    background-color: #775855;
+    margin: 0px 75px 0px 75px;
+}
+.guitar{
+    width: 270px;
+}
+.white{
+    width: 100%;
+    background-color: #fffbea;
+}
+.profile-word-container{
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.first-word{
+    font-size: 33px;
+    margin-top: 50px;
+    color: #775855;
+    margin-right: 100px;
+    font-weight: bold;
+}
+.white{
+    display: flex;
+    padding-top: 90px;
+    position: relative;
+    z-index: 0;
+}
+.profile-photo{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+/* これは丸を指定してます。 */
+.circle{
+    width: 570px;
+    height: 570px;
+    background-color: #D9B1AD;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    top: 50%;
+    left: -100px;
+    transform: translateY(-50%);
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #D9B1AD;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.footer-photo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
