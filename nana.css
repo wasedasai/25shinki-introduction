@@ -1,6 +1,7 @@
 body {
     color: #58390F;
     background-color: #F8F4E9;
+    overflow-x: hidden  ;
 }
 .homePic {
 width: 100vw;
