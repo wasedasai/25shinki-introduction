@@ -52,11 +52,9 @@
     align-items: flex-end;
     color: white;
     opacity: 80%;
+    margin: 0%;
 }
 
-.SCROLL {
-    margin: 0px;
-}
 
 .section1{
     background-color: #F5FAFE;
@@ -70,7 +68,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .swimmingtext{
@@ -83,10 +81,15 @@
     font-size: 60px;
     color: #1F2F54;
     margin: 0;
-    
     font-weight: 210px;
     letter-spacing: 10px;
     border-bottom: dotted 8px;
+}
+
+.pool-img:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition-duration: 1s;
 }
 
 .rightbox{
@@ -116,15 +119,93 @@
     background-color: #CBDBEB;
     margin: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 100px;
 }
+
+.leftbox2{
+    display: flex;
+    gap: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: #1F2F54;
+}
+
+.ongaku{
+    padding-left: 60px;
+}
+
+.ongakutext{
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.ongakutext {
+  position: relative;
+  display: inline-block;
+  width: 400px; 
+  height: 60px; 
+  line-height: 60px; 
+  text-decoration: none;
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+
+.btn__text {
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #1F2F54;
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; 
+  width: 100%;
+  text-align: left; 
+  transition: all 0.3s; 
+}
+
+
+.btn__text:nth-child(1) {
+  top: 0;
+}
+
+
+.btn__text:nth-child(2) {
+  top: -100%;
+}
+
+
+.ongakutext:hover .btn__text:nth-child(1) {
+  top: 100%;
+}
+
+.ongakutext:hover .btn__text:nth-child(2) {
+  top: 0;
+}
+
 
 .rightbox2{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+.rightbox2-under{
+    text-align: right;
+}
+
+.myfavorite{
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color: #1F2F54;
+    margin: 0;
+    font-weight: 210px;
+    letter-spacing: 10px;
+    border-bottom: dotted 8px;
 }
 
 .disneytext{
@@ -134,25 +215,26 @@
     margin: 0%;
 }
 
-.leftbox2{
-    display: flex;
-    gap: 190px;
-    margin: 0px;
-     font-family: 'Times New Roman';
-    font-size: 40px;
-    color: #1F2F54;
+.disney-img:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition-duration: 1s;
 }
-
-
-.ongakutext{
-    margin-bottom: 200px;
-}
+ 
 
 .fourpage{
     background-color: #E7F4FC;
+    margin: 0px;
     display: flex;
     justify-content: space-around;
-    margin: 0px;
+    padding: 100px;
+}
+
+.leftbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 160px;
 }
 
 .hogwarts-img{
@@ -160,41 +242,103 @@
 }
 
 .hogwartstext{
-    transform: rotate(-90deg);
     font-family: 'Times New Roman', Times, serif;
     color: #1F2F54;
     font-size: 20px;
     margin: 0px;
 }
 
-
+.hogwarts-img:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition-duration: 1s;
+}
+ 
 .rightbox3{
     display: flex;
-    gap: 190px;
+    gap: 0px;
+    margin: 0%;
     font-family: 'Times New Roman';
     font-size: 40px;
     color: #1F2F54;
 }
 
 .animetext{
-    margin-bottom: 200px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.animetext{
+  position: relative;
+  display: inline-block;
+  width: 400px; 
+  height: 60px; 
+  line-height: 60px; 
+  text-decoration: none; 
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+.btn__text2{
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #1F2F54;
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; 
+  width: 100%; 
+  text-align: left; 
+  transition: all 0.3s; 
+}
+
+.btn__text2:nth-child(1) {
+  top: 0;
+}
+
+.btn__text2:nth-child(2) {
+  top: -100%;
+}
+
+.animetext:hover .btn__text2:nth-child(1) {
+  top: 100%;
+}
+
+.animetext:hover .btn__text2:nth-child(2) {
+  top: 0;
 }
 
 .footer{
     background-color: #C6E3F5;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .footertext{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     color: white;
-    margin: 0px;
-    display: flex;
     gap: 100px;
-    padding-left: 100px;
-    padding-bottom: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.sns-btn{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer-img{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    padding: 20px;
+}
+
+.maillink{
+    color: white;
+}
