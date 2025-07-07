@@ -115,11 +115,13 @@ body{
 }
 
 .threepage{
+    width: 100%;
     background-color: #CBDBEB;
     margin: 0px;
     display: flex;
     justify-content: space-between;
     padding: 100px;
+    gap: 0px;
 }
 
 .leftbox2{
@@ -190,6 +192,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 200px;
 }
 
 
@@ -222,6 +225,7 @@ body{
  
 
 .fourpage{
+    width: 100%;
     background-color: #E7F4FC;
     margin: 0px;
     display: flex;
