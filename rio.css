@@ -1,0 +1,383 @@
+.header{
+    /* display: flex;
+    justify-content: flex-end; */
+    width: 100vw;
+    height: 100px;
+    background-color: #FFCC5E;
+    position: fixed;
+    z-index: 3;
+}
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+.genkan{
+    width: 100vw;
+    background-color: #FFDD7E;
+}
+.line{
+    width:86px;
+    height:3.5px;
+    background-color:#422c02;
+    margin: 0px;
+    right: 50px;
+    top: 20px;
+    position: fixed;
+}
+.linesecond{
+    width:86px;
+    height:2px;
+    background-color:#422c02;
+    margin: 0px;
+    right: 50px;
+    top: 35px;
+    position: fixed;
+}
+.linesentence{
+    position: absolute;
+    font-size: 30px;
+    color: #422c02;
+    font-family: "Russo One", sans-serif;
+    opacity: 0.9;
+    top: 50px;
+    right: 50px;
+    position: fixed;
+}
+
+.disney {
+    width: 100vw;
+    border-radius: 50px;
+}
+.disneybox {
+    position: relative;
+}
+.genkansentence {
+    position: absolute;
+    font-size: 120px;
+    color: #422c02;
+    font-family: "Russo One", sans-serif;
+    opacity: 0.8;
+    right: 25px;
+    bottom: 20px;
+}
+.living {
+  width: 100vw;
+  height: 1800px;
+  background-color: #FFDD7E;
+  overflow-x: hidden;
+}
+.bath{
+    width: 100vw;
+    height: 3000px;
+    background-color: #FFDD7E;
+    overflow: hidden;
+}
+.eiga{
+    width: 100vw;
+    height: 1000px;
+    background-color: blueviolet;
+    overflow-x: hidden;
+}
+.profilebox{
+    position: relative;
+}
+.topcircle{
+    position:absolute;
+    width: 70vw;
+    top: 150px;
+}
+.profilebox{
+    position: relative;
+}
+.profilesentence{
+    position: absolute;
+    font-size: 95px;
+    color: #422c02;
+    font-family: "Russo One", sans-serif;
+    opacity: 0.9;
+    top: 350px;
+    left: 50px;
+}
+.favoritebox{
+    position: relative;
+}
+.bottomcircle{
+    position:absolute;
+    width: 70vw;
+    top: 50px;
+    right: 0px;
+}
+.favoritebox{
+    position: relative;
+}
+.favoritesentence{
+    position: absolute;
+    font-size: 95px;
+    color: #422c02;
+    font-family: "Russo One", sans-serif;
+    opacity: 0.9;
+    top: 250px;
+    left: 850px;
+}
+.scro{
+    margin-top: 1000px;
+    height: 2000px;
+    padding-top: 300px;
+}
+.profilebox{
+    position: relative;
+}
+.black-box{
+    display: flex;
+    font-size: 50px;
+    color: #422c02;
+    top: 500px;
+    left: 50px;
+}
+.profilebox{
+    position: relative;
+}
+.profile-container {
+    position: absolute;
+    /* line-height: 2; */
+    margin-top: 515px;
+    margin-left: 50px;
+}
+.red{
+    width: 250px;
+    height: 150px;
+}
+.blue{
+    height: 150px;
+}
+.brsentence{
+    /* line-height: 1 !important; */
+    margin-bottom: 50px;
+}
+.white-box{
+    display: flex;
+    font-size: 50px;
+    color: #422c02;
+    top: 500px;
+    left: 500px;
+}
+.favoritebox{
+    position:relative
+}
+.favorite-container{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 850px;
+}
+.green{
+    width: 375px;
+    height: 150px;
+}
+.brown{
+    height: 150px;
+}.rbsentence{
+    margin-bottom: 100px;
+}
+
+
+
+.slider-wrap {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: nowrap;
+    background-color: #3D3737;
+    height: 530px;
+    width: 2100px;
+}
+
+.slider {
+	height: 500px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	animation: slide-loop 20s linear infinite;
+    box-sizing: border-box;
+    background-color: #3D3737;
+}
+.slider2 {
+	height: 500px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	animation: slide-loop 20s linear infinite;
+    box-sizing: border-box;
+    background-color: #3D3737;
+}
+.slider div {
+	width: 350px;
+	height: 70%;
+	background-position: center;
+    margin-right: 80px;
+}
+.slider2 div {
+	width: 350px;
+	height: 70%;
+	background-position: center;
+    margin-right: 80px;
+}
+.slider::before,
+.slider::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 49px;
+    background-color: #3D3737;
+    background-image: repeating-linear-gradient(
+        90deg,
+        #fff 0, #fff 49px,       /* 穴の色とサイズ(幅) */
+        transparent 49px, transparent 98px /* 穴の間隔 */
+    );
+    z-index: 10;
+}
+.slider::before{
+    top: 0;
+}
+.slider::after{
+    bottom: 0;
+}
+.slider2::before,
+.slider2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 49px;
+    background-color: #3D3737;
+    background-image: repeating-linear-gradient(
+        90deg,
+        #fff 0, #fff 49px,       /* 穴の色とサイズ(幅) */
+        transparent 49px, transparent 98px /* 穴の間隔 */
+    );
+    z-index: 10;
+}
+.slider2::before{
+    top: 0;
+}
+.slider2::after{
+    bottom: 0;
+}
+@keyframes slide-loop {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+}
+.sliderfirst{
+    transform: rotate(15deg);
+    margin-left: -100px;
+}
+.slidersecond{
+    transform: rotate(-15deg);
+    margin-left: -100px;
+}
+.eigasentence{
+    position: absolute;
+    transform: rotate(15deg);
+    margin-top: -1265px;
+    font-size: 20px;
+}
+.filmsentence{
+    position: absolute;
+    transform: rotate(-15deg);
+    margin-top:-750px;
+    margin-left: 1200px;
+    font-size: 20px;
+}
+.tvsentence{
+    position: absolute;
+    transform: rotate(-15deg);
+    margin-top: -430px;
+    font-size: 20px;
+}
+/* 1枚目のスライド */
+.slider div:first-of-type {
+	background-image: url(image\ 119\ \(1\).png);
+}
+
+/* 2枚目のスライド */
+.slider div:nth-of-type(2) {
+	background-image: url(image\ 121.png);
+}
+
+/* 3枚目のスライド */
+.slider div:nth-of-type(3) {
+	background-image: url(image\ 174.png);
+}
+
+/* 4枚目のスライド */
+.slider div:nth-of-type(4) {
+	background-image: url(image\ 182.png);
+}
+
+/*5枚目のスライド */
+.slider div:nth-of-type(5) {
+	background-image: url(image\ 118.png);
+}
+
+/* こっちが下の方 */
+
+/* 1枚目のスライド */
+.slider2 div:first-of-type {
+	background-image: url(image\ 140.png);
+}
+
+/* 2枚目のスライド */
+.slider2 div:nth-of-type(2) {
+	background-image: url(image\ 181\ \(1\).png);
+}
+
+/* 3枚目のスライド */
+.slider2 div:nth-of-type(3) {
+	background-image: url(image\ 180.png);
+}
+
+/* 4枚目のスライド */
+.slider2 div:nth-of-type(4) {
+	background-image: url(image\ 124.png);
+}
+
+/*5枚目のスライド */
+.slider2 div:nth-of-type(5) {
+	background-image: url(image\ 123.png);
+}
+.footerimage {
+    width: 100vw;
+    bottom: 0;
+}
+footer {
+    background-color: #FFDD7E;
+    width: 100vw;
+    position: relative;
+}
+.scro {
+    width: 100vw;
+    overflow-x: hidden;
+}
+.SNS-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+    gap: 30px;
+}
+.iconsentence {
+    font-size: 40px;
+    color: #422c02;
+    font-family: "Russo One", sans-serif;
+    opacity: 0.9;
+}
