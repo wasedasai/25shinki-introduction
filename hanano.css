@@ -1,0 +1,344 @@
+/* body{
+    overflow-x: hidden;
+    width: 100vw;
+} */
+
+
+
+.sea-img{
+    width:100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 0px;
+}
+.hanano-header{
+    font-size: 128px;
+    width: 871px;
+    letter-spacing: 100px;
+    
+}
+.headertext{    
+    position: absolute;
+    top: 53px;
+    left: 116px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 80%;
+    font-weight: 100;
+
+}
+.profilesite{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.line{
+    background-color: white;
+    width: 1px;
+    height: 130px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.SCROLL{
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 25px;
+    font-size: 24px;
+    font-family: "Times New Roman";
+    letter-spacing: 3px;
+    align-items: flex-end;
+    color: white;
+    opacity: 80%;
+    margin: 0%;
+}
+
+
+.section1{
+    background-color: #F5FAFE;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px; 
+}
+
+.leftbox{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.swimmingtext{
+    margin: 0%;
+}
+
+
+.profile{
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color: #1F2F54;
+    margin: 0;
+    font-weight: 210px;
+    letter-spacing: 10px;
+    border-bottom: dotted 8px;
+}
+
+.pool-img:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition-duration: 1s;
+}
+
+.rightbox{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: #1F2F54;
+    gap: 120px;
+    
+}
+
+.gakubutext{
+    margin-bottom: 50px;
+}
+
+
+
+.swimmingtext{
+    color: #1F2F54;
+    font-family: 'Times New Roman', Times, serif;
+    width: 137px;
+    font-size: 20px;
+   
+}
+
+.threepage{
+    background-color: #CBDBEB;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.leftbox2{
+    display: flex;
+    gap: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: #1F2F54;
+}
+
+.ongaku{
+    padding-left: 60px;
+}
+
+.ongakutext{
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.ongakutext {
+  position: relative;
+  display: inline-block;
+  width: 400px; 
+  height: 60px; 
+  line-height: 60px; 
+  text-decoration: none;
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+
+.btn__text {
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #1F2F54;
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; 
+  width: 100%;
+  text-align: left; 
+  transition: all 0.3s; 
+}
+
+
+.btn__text:nth-child(1) {
+  top: 0;
+}
+
+
+.btn__text:nth-child(2) {
+  top: -100%;
+}
+
+
+.ongakutext:hover .btn__text:nth-child(1) {
+  top: 100%;
+}
+
+.ongakutext:hover .btn__text:nth-child(2) {
+  top: 0;
+}
+
+
+.rightbox2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.rightbox2-under{
+    text-align: right;
+}
+
+.myfavorite{
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color: #1F2F54;
+    margin: 0;
+    font-weight: 210px;
+    letter-spacing: 10px;
+    border-bottom: dotted 8px;
+}
+
+.disneytext{
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F2F54;
+    font-size: 20px;
+    margin: 0%;
+}
+
+.disney-img:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition-duration: 1s;
+}
+ 
+
+.fourpage{
+    background-color: #E7F4FC;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.leftbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 160px;
+}
+
+.hogwarts-img{
+    margin: 0px;
+}
+
+.hogwartstext{
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F2F54;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.hogwarts-img:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition-duration: 1s;
+}
+ 
+.rightbox3{
+    display: flex;
+    gap: 0px;
+    margin: 0%;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: #1F2F54;
+}
+
+.animetext{
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.animetext{
+  position: relative;
+  display: inline-block;
+  width: 400px; 
+  height: 60px; 
+  line-height: 60px; 
+  text-decoration: none; 
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+.btn__text2{
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #1F2F54;
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; 
+  width: 100%; 
+  text-align: left; 
+  transition: all 0.3s; 
+}
+
+.btn__text2:nth-child(1) {
+  top: 0;
+}
+
+.btn__text2:nth-child(2) {
+  top: -100%;
+}
+
+.animetext:hover .btn__text2:nth-child(1) {
+  top: 100%;
+}
+
+.animetext:hover .btn__text2:nth-child(2) {
+  top: 0;
+}
+
+.footer{
+    background-color: #C6E3F5;
+    margin: 0px;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footertext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    gap: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sns-btn{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer-img{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    padding: 20px;
+}
+
+.maillink{
+    color: white;
+}
