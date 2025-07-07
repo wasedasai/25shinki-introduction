@@ -228,7 +228,7 @@ width: 100vw;
   transform:scaleY(-1);          /* 垂直方向にひっくり返す */
 }
 .favoriteimg01 {
-    background-image: url(/wannokuimg.png);
+    background-image: url(wannokuimg.png);
 }
 .favoriteimg02 {
     background-image: url(kaoruhanaimg.png);
