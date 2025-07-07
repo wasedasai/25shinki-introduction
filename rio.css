@@ -304,27 +304,27 @@ body {
 }
 /* 1枚目のスライド */
 .slider div:first-of-type {
-	background-image: url(image\ 119\ \(1\).png);
+	background-image: url(../image\ 119\ \(1\).png);
 }
 
 /* 2枚目のスライド */
 .slider div:nth-of-type(2) {
-	background-image: url(image\ 121.png);
+	background-image: url(../image\ 121.png);
 }
 
 /* 3枚目のスライド */
 .slider div:nth-of-type(3) {
-	background-image: url(image\ 174.png);
+	background-image: url(../image\ 174.png);
 }
 
 /* 4枚目のスライド */
 .slider div:nth-of-type(4) {
-	background-image: url(image\ 182.png);
+	background-image: url(../image\ 182.png);
 }
 
 /*5枚目のスライド */
 .slider div:nth-of-type(5) {
-	background-image: url(image\ 118.png);
+	background-image: url(../image\ 118.png);
 }
 
 /* こっちが下の方 */
